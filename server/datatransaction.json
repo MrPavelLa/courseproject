@@ -1,0 +1,66 @@
+{
+  "1234": [
+    {
+      "code": "1234",
+      "operationName": "Покупка продуктов",
+      "date": "2023-12-23",
+      "time": "14:30",
+      "amount": 2500,
+      "category": "оплата",
+      "accounts": "12345678",
+      "target": "856341",
+      "isdeleted": true
+    },
+    {
+      "code": "1234",
+      "operationName": "Оплата счета за услуги",
+      "date": "2023-12-22",
+      "time": "09:45",
+      "amount": 1500,
+      "category": "оплата",
+      "accounts": "23456789",
+      "target": "542097",
+      "isdeleted": true
+    },
+    {
+      "code": "1234",
+      "operationName": "Пополнение счета",
+      "date": "2023-12-20",
+      "time": "11:00",
+      "amount": 3000,
+      "category": "пополнение",
+      "accounts": "12345678",
+      "target": "856795",
+      "isdeleted": true
+    }
+  ],
+  "9123": [
+    {
+      "operationName": "Перевод другу",
+      "date": "2023-12-23",
+      "time": "17:20",
+      "amount": 500,
+      "category": "оплата",
+      "accounts": "67890123",
+      "target": "759684"
+    },
+    {
+      "operationName": "Оплата интернета",
+      "date": "2023-12-21",
+      "time": "20:15",
+      "amount": 800,
+      "category": "оплата",
+      "accounts": "56789012",
+      "target": "546378"
+    },
+    {
+      "operationName": "Пополнение счета",
+      "date": "2023-12-18",
+      "time": "14:00",
+      "amount": 2000,
+      "category": "пополнение",
+      "accounts": "67890123",
+      "target": "128563"
+    }
+  ]
+}

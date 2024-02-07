@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.profile-dropdown {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  background-color: rgb(227, 227, 227);
+  font-size: 16px;
+  z-index: 1;
+}
+
+.user-info,
+.login-form {
+  width: 100%;
+  height: auto;
+}
+
+.profile-dropdown button {
+  width: 85%;
+  min-width: 70px;
+  min-height: 30px;
+  font-size: 14px;
+  color: black;
+  background-color: aqua;
+  margin: 10px;
+}
+
+.profile-dropdown input {
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+*/ .link-container {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-container * {
+  font-size: 50px;
+  width: 100%;
+  border: 1px;
+  text-decoration: none;
+  background-color: transparent;
+  color: black
+}
+
+.button-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+}
+
+.button-container * {
+  font-size: 35px;
+  width: 100%;
+  border: 1px;
+
+  background-color: transparent;
+}
+
+.TextField-root {
+  margin: 8px 0;
+}
+
+.login-form .MuiOutlinedInput-root {
+  width: 90%;
+  max-height: 40px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-form .MuiInputLabel-root {
+  margin-top: 10px;
+}
+
+.ModalLogin {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalLogin .MuiTextField-root {
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ModalLogin .MuiButton-root {
+  margin-top: 10px;
+  margin-right: 5%;
+  margin-left: auto;
+}
+.ModalLogin h2{
+  color:rgb(116, 116, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1439px) {
+  .profile-dropdown {
+    top: 70px;
+    right: 0px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 719px) {
+  .profile-dropdown {
+    top: 0px;
+    right: -40px;
+    transform: scale(0.6);
+  }
+}

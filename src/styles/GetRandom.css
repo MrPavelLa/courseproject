@@ -1,0 +1,28 @@
+.getRandomItem{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.getRandomItem img{
+  width: 100%;
+  max-width: 92%;
+  height: auto;
+  margin: 4% 4% 0 4% ;
+  aspect-ratio: 1 / 1;
+}
+.getRandomItem p,
+.getRandomItem h3 {
+  line-height: 8px;
+} 
+.WebinarModal{
+  position: absolute;
+  bottom: 5%;
+  right: 7%;
+}
+.freelog {
+  position: absolute;
+  width: 50% !important;
+  top: 0;
+  left: 0;
+  margin: 0 ;
+}

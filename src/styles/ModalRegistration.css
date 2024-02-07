@@ -1,0 +1,30 @@
+.MuiFormControl-root {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .addUser {
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+
+  .addUser h2{
+color: blue;
+  }
+  .addUser .MuiButton-root {
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+.addUser .MuiButton-root{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

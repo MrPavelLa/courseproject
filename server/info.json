@@ -1,0 +1,72 @@
+{
+  "Deposits": {
+    "Расчетные": {
+      "Description": "Расчетные",
+      "InterestRate": "1.5% годовых",
+      "DepositTerms": "Без ограничений",
+      "MinimumDepositAmount": "100",
+      "DepositReplenishmentAndPartialWithdrawal": "Без ограничений",
+      "InterestAccrualConditions": "Ежемесячно",
+      "LogoURL": "logo1.png",
+      "Comment": "Депозит с минимальными процентными ставками и без особых требований по минимальной сумме вклада",
+      "Tooltip": "Предназначен для повседневных операций и обеспечивает легкий доступ к средствам."
+    },
+    "Накопительные": {
+      "Description": "Накопительные",
+      "InterestRate": "2.0% годовых",
+      "DepositTerms": "От 6 месяцев до 3 лет",
+      "MinimumDepositAmount": "500",
+      "DepositReplenishmentAndPartialWithdrawal": "Без ограничений",
+      "InterestAccrualConditions": "Ежемесячно",
+      "LogoURL": "logo2.png",
+      "Comment": "Депозит, который предоставляет небольшой, но стабильный доход за счет накопленных средств.",
+      "Tooltip": "Идеальный вариант для сбережений на долгосрочные цели или как часть финансового планирования."
+    },
+    "Валютные": {
+      "Description": "Валютные",
+      "InterestRate": "1.75% годовых",
+      "DepositTerms": "От 6 месяцев до 3 лет",
+      "MinimumDepositAmount": "1000",
+      "DepositReplenishmentAndPartialWithdrawal": "Без ограничений",
+      "InterestAccrualConditions": "Ежеквартально",
+      "LogoURL": "logo3.png",
+      "Comment": "Депозит, осуществляемый в иностранной валюте, позволяющий заработать на разнице в обменных курсах.",
+      "Tooltip": "Предлагает возможность заработка на колебаниях курсов валют и обеспечивает защиту от инфляции."
+    }
+  },
+  "Loans": {
+    "Ипотечные": {
+      "Description": "Ипотечные",
+      "InterestRate": "5.5",
+      "LoanTermsSt": "5",
+      "LoanTermsEnd": "30",
+      "MinimumLoanAmount": "5000",
+      "MaximumLoanAmount": "500000",
+      "LogoURL": "logo4.png",
+      "Comment": "Кредит, предоставляемый для приобретения жилья с долгосрочным планом погашения",
+      "Tooltip": "Обычно имеет более низкие процентные ставки, но требует обеспечения и предоставления документов."
+    },
+    "Потребительские": {
+      "Description": "Потребительские",
+      "InterestRate": "9.0",
+      "LoanTermsSt": "1",
+      "LoanTermsEnd": "5",
+      "MinimumLoanAmount": "1000",
+      "MaximumLoanAmount": "50000",
+      "LogoURL": "logo5.png",
+      "Comment": "Кредит, ориентированный на личное потребление, позволяющий быстро получить средства для различных нужд.",
+      "Tooltip": "Используется для приобретения товаров, услуг, ремонта или других личных потребностей."
+    },
+    "Автокредиты": {
+      "Description": "Автокредиты",
+      "InterestRate": "7.25",
+      "LoanTermsSt": "3",
+      "LoanTermsEnd": "7",
+      "MinimumLoanAmount": "3000",
+      "MaximumLoanAmount": "75000",
+      "LogoURL": "logo6.png",
+      "Comment": "Кредит, предназначенный для приобретения автомобиля с определенными условиями погашения.",
+      "Tooltip": "Обычно имеет фиксированный срок и предоставляет определенные преимущества для покупки авто."
+    }
+  }
+}

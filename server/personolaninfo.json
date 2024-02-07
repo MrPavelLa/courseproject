@@ -1,0 +1,29 @@
+{
+  "1234": {
+    "LoanName": "Personal Loan",
+    "AnnualInterestRate": 8.5,
+    "LoanTerm": 36,
+    "LoanAmount": 40000,
+    "MonthlyPayment": 1500,
+    "EarlyRepaymentPenalties": "5% of remaining balance if paid off before 24 months",
+    "PaidOffAmount": 25000
+  },
+  "5679": {
+    "LoanName": "Auto Loan",
+    "AnnualInterestRate": 6.2,
+    "LoanTerm": 60,
+    "Amount": 70000,
+      "MonthlyPayment": 1200,
+      "EarlyRepaymentPenalties": "3% of remaining balance if paid off before 48 months",
+    "PaidOffAmount": 35000
+  },
+  "9123": {
+    "LoanName": "Mortgage",
+    "AnnualInterestRate": 4.0,
+    "LoanTerm": 240,
+    "Amount": 280000,
+      "MonthlyPayment": 600,
+      "EarlyRepaymentPenalties": "10% of remaining balance if paid off before 120 months",
+    "PaidOffAmount": 200000
+  }
+}

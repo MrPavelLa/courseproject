@@ -1,0 +1,221 @@
+{
+  "datatransaction": {
+    "1234": [
+      {
+        "operationName": "Покупка продуктов",
+        "date": "2023-12-23",
+        "time": "14:30",
+        "amount": 2500,
+        "category": "оплата",
+        "accounts": "12345678",
+        "target": "856341"
+      },
+      {
+        "operationName": "Оплата счета за услуги",
+        "date": "2023-12-22",
+        "time": "09:45",
+        "amount": 1500,
+        "category": "оплата",
+        "accounts": "23456789",
+        "target": "542097"
+      },
+      {
+        "operationName": "Пополнение счета",
+        "date": "2023-12-20",
+        "time": "11:00",
+        "amount": 3000,
+        "category": "пополнение",
+        "accounts": "12345678",
+        "target": "856795"
+      }
+    ],
+    "9123": [
+      {
+        "operationName": "Перевод другу",
+        "date": "2023-12-23",
+        "time": "17:20",
+        "amount": 500,
+        "category": "оплата",
+        "accounts": "67890123",
+        "target": "759684"
+      },
+      {
+        "operationName": "Оплата интернета",
+        "date": "2023-12-21",
+        "time": "20:15",
+        "amount": 800,
+        "category": "оплата",
+        "accounts": "56789012",
+        "target": "546378"
+      },
+      {
+        "operationName": "Пополнение счета",
+        "date": "2023-12-18",
+        "time": "14:00",
+        "amount": 2000,
+        "category": "пополнение",
+        "accounts": "67890123",
+        "target": "128563"
+      }
+    ]
+  },
+  "info": {
+    "Deposits": {
+      "Расчетные": {
+        "Description": "Расчетные",
+        "InterestRate": "1.5% годовых",
+        "DepositTerms": "Без ограничений",
+        "MinimumDepositAmount": "100",
+        "DepositReplenishmentAndPartialWithdrawal": "Без ограничений",
+        "InterestAccrualConditions": "Ежемесячно",
+        "LogoURL": "logo1.png",
+        "Comment": "Депозит с минимальными процентными ставками и без особых требований по минимальной сумме вклада",
+        "Tooltip": "Предназначен для повседневных операций и обеспечивает легкий доступ к средствам."
+      },
+      "Накопительные": {
+        "Description": "Накопительные",
+        "InterestRate": "2.0% годовых",
+        "DepositTerms": "От 6 месяцев до 3 лет",
+        "MinimumDepositAmount": "500",
+        "DepositReplenishmentAndPartialWithdrawal": "Без ограничений",
+        "InterestAccrualConditions": "Ежемесячно",
+        "LogoURL": "logo2.png",
+        "Comment": "Депозит, который предоставляет небольшой, но стабильный доход за счет накопленных средств.",
+        "Tooltip": "Идеальный вариант для сбережений на долгосрочные цели или как часть финансового планирования."
+      },
+      "Валютные": {
+        "Description": "Валютные",
+        "InterestRate": "1.75% годовых",
+        "DepositTerms": "От 6 месяцев до 3 лет",
+        "MinimumDepositAmount": "1000",
+        "DepositReplenishmentAndPartialWithdrawal": "Без ограничений",
+        "InterestAccrualConditions": "Ежеквартально",
+        "LogoURL": "logo3.png",
+        "Comment": "Депозит, осуществляемый в иностранной валюте, позволяющий заработать на разнице в обменных курсах.",
+        "Tooltip": "Предлагает возможность заработка на колебаниях курсов валют и обеспечивает защиту от инфляции."
+      }
+    },
+    "Loans": {
+      "Ипотечные": {
+        "Description": "Ипотечные",
+        "InterestRate": "5.5",
+        "LoanTermsSt": "5",
+        "LoanTermsEnd": "30",
+        "MinimumLoanAmount": "5000",
+        "MaximumLoanAmount": "500000",
+        "LogoURL": "logo4.png",
+        "Comment": "Кредит, предоставляемый для приобретения жилья с долгосрочным планом погашения",
+        "Tooltip": "Обычно имеет более низкие процентные ставки, но требует обеспечения и предоставления документов."
+      },
+      "Потребительские": {
+        "Description": "Потребительские",
+        "InterestRate": "9.0",
+        "LoanTermsSt": "1",
+        "LoanTermsEnd": "5",
+        "MinimumLoanAmount": "1000",
+        "MaximumLoanAmount": "50000",
+        "LogoURL": "logo5.png",
+        "Comment": "Кредит, ориентированный на личное потребление, позволяющий быстро получить средства для различных нужд.",
+        "Tooltip": "Используется для приобретения товаров, услуг, ремонта или других личных потребностей."
+      },
+      "Автокредиты": {
+        "Description": "Автокредиты",
+        "InterestRate": "7.25",
+        "LoanTermsSt": "3",
+        "LoanTermsEnd": "7",
+        "MinimumLoanAmount": "3000",
+        "MaximumLoanAmount": "75000",
+        "LogoURL": "logo6.png",
+        "Comment": "Кредит, предназначенный для приобретения автомобиля с определенными условиями погашения.",
+        "Tooltip": "Обычно имеет фиксированный срок и предоставляет определенные преимущества для покупки авто."
+      }
+    }
+  },
+  "persondepositeinfo": {
+    "1234": {
+      "DepositName": "Savings Account",
+      "DepositAmount": 5000,
+      "DepositDate": "2023-12-01",
+      "Duration": 12,
+      "AnnualInterestRate": 3.5
+    },
+    "5678": {
+      "DepositName": "Fixed Deposit",
+      "DepositAmount": 10000,
+      "DepositDate": "2023-08-15",
+      "Duration": 6,
+      "AnnualInterestRate": 4.0
+    },
+    "9123": {
+      "DepositName": "Flexible Deposit",
+      "DepositAmount": 7500,
+      "DepositDate": "2024-02-20",
+      "Duration": 9,
+      "AnnualInterestRate": 3.75
+    }
+  },
+  "personloaninfo": {
+    "1234": {
+      "LoanName": "Personal Loan",
+      "AnnualInterestRate": 8.5,
+      "LoanTerm": 36,
+      "LoanAmount": 40000,
+      "MonthlyPayment": 1500,
+      "EarlyRepaymentPenalties": "5% of remaining balance if paid off before 24 months",
+      "PaidOffAmount": 25000
+    },
+    "5679": {
+      "LoanName": "Auto Loan",
+      "AnnualInterestRate": 6.2,
+      "LoanTerm": 60,
+      "LoanAmount": 70000,
+      "MonthlyPayment": 1200,
+      "EarlyRepaymentPenalties": "3% of remaining balance if paid off before 48 months",
+      "PaidOffAmount": 35000
+    },
+    "9123": {
+      "LoanName": "Mortgage",
+      "AnnualInterestRate": 4.0,
+      "LoanTerm": 240,
+      "LoanAmount": 280000,
+      "MonthlyPayment": 600,
+      "EarlyRepaymentPenalties": "10% of remaining balance if paid off before 120 months",
+      "PaidOffAmount": 200000
+    }
+  },
+  "users": [
+    {
+      "code": "1234",
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "password": "password123",
+      "photo": "user1234.jpg",
+      "accounts": [
+        "12345678",
+        "23456789"
+      ]
+    },
+    {
+      "code": "5678",
+      "firstName": "Петр",
+      "lastName": "Петров",
+      "password": "qwerty456",
+      "photo": "user5678.jpg",
+      "accounts": [
+        "34567890",
+        "45678901"
+      ]
+    },
+    {
+      "code": "9123",
+      "firstName": "Анна",
+      "lastName": "Сидорова",
+      "password": "abc123",
+      "photo": "user9123.jpg",
+      "accounts": [
+        "56789012",
+        "67890123"
+      ]
+    }
+  ]
+}

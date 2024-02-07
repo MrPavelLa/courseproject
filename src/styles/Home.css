@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Home */
+.Home1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  height: auto;
+  background: linear-gradient(180deg, #1A59B8 0%, rgba(194, 194, 194, 0) 100%), #90B7F3;
+}
+.Text_Home1_Cont{
+  margin-left: 30px;
+  width: 45%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.Home1_1{
+width: 100%;
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 49px;
+color: #FFFFFF;
+}
+.Home1_2{
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.Home1_But{
+  background-color: #FFFFFF;
+  height: 60px;
+  width: 304px;
+  border: 1px;
+  border-radius: 30px;
+  font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+  
+}
+.ul_Home1{
+  list-style-type: none;
+  color: #FFFFFF;
+  padding: 0;
+}
+.li{
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.Home1_3{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.image_Home{
+  width: 100%;
+  z-index: -1;
+}
+.Home2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.Home2_1{
+font-weight: 700;
+font-size: 48px;
+width: auto;
+line-height: 56px;
+margin-left: auto;
+margin-right: auto;
+}
+.Random{
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.RandomTraining, .RandomLection{ 
+width: 330.75px;
+height: 409.5px;
+border: #000000 1px solid;
+border-radius: 5px;
+}
+
+.RandomWebinar{ 
+  width: 441px;
+height: 546px;
+border: #000000 1px solid;
+border-radius: 10px;
+}
+
+.RandomTraining p {
+  font-size: 11px;
+  line-height: 0px;
+} 
+.RandomTraining h3 {
+  font-size: 13px;
+  line-height: 0px;
+} 
+.Tarifs{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Tarif{
+  border: #000000 1px solid;
+  border-radius: 5px;
+  min-width: 180px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Tarif button{
+  width: 100%;
+}
+.tarifName{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2px;  
+}
+
+@media screen and (min-width: 720px) and (max-width: 1439px) {
+  .Home1_1{
+    font-size: 24px;
+    line-height: 24px;
+    }
+    .Home1_2{
+    font-size: 14px;
+    line-height: 14px;
+    }
+    .Home1_But{
+    margin-left: -60px;
+    transform: scale(0.6);      
+    }
+    .li{
+      margin-bottom: 12px;
+      font-size: 10px;
+    }
+    .Home1_3{
+    font-size: 10px;
+    line-height: 12px;
+    }
+
+    .Random{
+      flex-direction: column;
+    }
+    
+    .RandomTraining, .RandomLection, .RandomWebinar{ 
+      width: 441px;
+      height: 546px;
+    border-radius: 10px;
+    margin-top: 20px;
+    }
+    
+    .Tarifs {
+      flex-wrap: wrap; 
+      justify-content: space-evenly;
+    }
+    
+    .Tarif {
+      margin: 10px; 
+      box-sizing: border-box; 
+    }   
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 719px) {
+  .Home1_1 {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .Home1_2 {
+    font-size: 8px;
+    line-height: 8px;
+  }
+
+  .Home1_But {
+    margin-left: -60px; 
+    transform: scale(0.6);
+  }
+
+  .li {
+    margin-bottom: 6px; /* Поправил значение для лучшего отображения */
+    font-size: 6px;
+  }
+
+  .Home1_3 {
+    font-size: 6px;
+    line-height: 6px;
+  }
+
+  .image_Home {
+    display: none;
+  }
+
+  .Text_Home1_Cont {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    transform: none;
+    position: relative;
+    margin-right: 15px;
+  }
+
+  .Home1 {
+    margin-top: -15px;
+    margin-right: 15px;
+  }
+
+  .Home2_1 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  
+  .Random{
+    flex-direction: column;
+  }
+  
+  .RandomTraining, .RandomLection, .RandomWebinar{ 
+    width: 300px;
+    height: 450px;
+  border-radius: 10px;
+  margin-top: 20px;
+  }
+  .Tarifs {
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+  }
+  
+  .Tarif {
+    margin: 10px; 
+    box-sizing: border-box; 
+  }   
+
+}

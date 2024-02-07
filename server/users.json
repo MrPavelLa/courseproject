@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "code": "1234",
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "password": "password123",
+      "photo": "user1234.jpg",
+      "accounts": [
+        "12345678",
+        "23456789"
+      ]
+    },
+    {
+      "code": "5678",
+      "firstName": "Петр",
+      "lastName": "Петров",
+      "password": "qwerty456",
+      "photo": "user5678.jpg",
+      "accounts": [
+        "34567890",
+        "45678901"
+      ]
+    },
+    {
+      "code": "9123",
+      "firstName": "Анна",
+      "lastName": "Сидорова",
+      "password": "abc123",
+      "photo": "user9123.jpg",
+      "accounts": [
+        "56789012",
+        "67890123"
+      ]
+    }
+  ]
+}
