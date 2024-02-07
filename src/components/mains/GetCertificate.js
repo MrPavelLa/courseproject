@@ -38,7 +38,7 @@ const GetCertificate = ({ name, date }) => {
             <Text style={styles.text1}>{userData.firstName} {userData.lastName}</Text>
             <Text style={styles.text4}>{webtype === 'lecture' ? 'лекции' : webtype === 'webinar' ? 'вебинаре' : webtype === 'training' ? 'тренинге' : null}</Text>
             <Text style={styles.text2}>"{name}"</Text>
-            <Text style={styles.text3}>{date}</Text>
+            <Text style={styles.text3}>{webtype === 'lecture' ? new Date().toLocaleString() : date}</Text>
             <Image style={styles.image} src="WLTCertificate.png" />
           </View>
         </Page>
